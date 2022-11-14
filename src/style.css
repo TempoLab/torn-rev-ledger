@@ -1,5 +1,6 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif, Inter, Avenir, Helvetica, Arial;
+
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -19,5 +20,11 @@ body {
   flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
